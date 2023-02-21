@@ -55,8 +55,8 @@
     justify-content: space-evenly;
     align-items: center;*/
     position: absolute;
+    top: 70px;
     background-color: #FAFAFA;
-    margin-top: 18px;
     border-radius: 4px;
     width: 100%;
     border: none;
@@ -67,11 +67,6 @@
     display: block;
 }
 
-.filters .locations:hover,
-.filters .amenities:hover {
-    background-color: #FAFAFA;
-}
-
 .popover ul {
     list-style: none;
     border: none;
@@ -80,7 +75,6 @@
 .amenities .popover li {
     font-size: 14px;
     background-color: #FAFAFA;
-    padding: 5px;
     padding: 8px 15px;
     display: flex;
     justify-content: space-between;
