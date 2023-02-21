@@ -72,3 +72,8 @@
 .number_bathrooms {
     background: #ffffff url('../images/icon_bath.png') 20px center no-repeat;
 }
+
+footer {
+    position: relative;
+    bottom: 0;
+}
