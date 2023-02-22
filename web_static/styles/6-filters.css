@@ -54,12 +54,12 @@
     /*
     justify-content: space-evenly;
     align-items: center;*/
+    background-color: #FAFAFA;
+    border: none;
+    border-radius: 4px;
     position: absolute;
     top: 70px;
-    background-color: #FAFAFA;
-    border-radius: 4px;
     width: 100%;
-    border: none;
 }
 
 .filters .locations:hover .popover,
@@ -68,23 +68,23 @@
 }
 
 .popover ul {
-    list-style: none;
     border: none;
+    list-style: none;
 }
 
 .amenities .popover li {
-    font-size: 14px;
-    background-color: #FAFAFA;
-    padding: 8px 15px;
-    display: flex;
-    justify-content: space-between;
     align-items: center;
+    background-color: #FAFAFA;
+    display: flex;
+    font-size: 14px;
+    justify-content: space-between;
+    padding: 8px 15px;
     text-decoration: none;
 }
 
 .locations .popover li {
-    font-size: 14px;
     background-color: #FAFAFA;
+    font-size: 14px;
     padding: 12px 0 12px -100px;
     text-decoration: none;
 }
