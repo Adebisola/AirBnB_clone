@@ -28,6 +28,7 @@
     margin: .67em 0 .67em 0;
     vertical-align: text-top;
     width: 60%;
+    padding-left: 30px;
 }
 
 .places .price_by_night {
@@ -41,11 +42,12 @@
     height: 60px;
     min-width: 60px;
     font-size: 30px;
+    float: right;
 }
 
 .information {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     border-top: 2px solid #CCCCCC;
     border-bottom: 2px solid #CCCCCC;
@@ -55,22 +57,38 @@
 .max_guest,
 .number_rooms,
 .number_bathrooms {
-    margin: 10px;
-    padding: 10px;
+    margin: 5px;
+    padding: 5px;
 }
 
 .max_guest {
-    background: #ffffff url('../images/icon_group.png') 20px center no-repeat;
+    background: #ffffff url('../images/icon_group.png') 20px top no-repeat;
     width: 100%;
     background-position: top;
 }
 
 .number_rooms {
-    background: #ffffff url('../images/icon_bed.png') 20px center no-repeat;
+    background: #ffffff url('../images/icon_bed.png') 20px top no-repeat;
 }
 
 .number_bathrooms {
-    background: #ffffff url('../images/icon_bath.png') 20px center no-repeat;
+    background: #ffffff url('../images/icon_bath.png') 20px top no-repeat;
+}
+
+.max_guest p,
+.number_rooms p,
+.number_bathrooms p {
+    font-size: 14px;
+    margin-top: 50px;
+    vertical-align: bottom;
+}
+
+.user {
+    text-align: left;
+}
+
+.user p {
+    float: left;
 }
 
 footer {
